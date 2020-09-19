@@ -9,7 +9,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QPushButton, QFileDialog, QMessageBox
-from main import run, selectFolder
+from main import make_pdf, selectFolder
 import os
 
 class Ui_MainWindow(object):
