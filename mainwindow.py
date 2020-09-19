@@ -111,7 +111,7 @@ class Ui_MainWindow(object):
  
         def convert(self):
                 if self.imgdir:
-                        run(self.imgdir, self.lineEdit.text() or 'output')
+                        make_pdf(self.imgdir, self.lineEdit.text() or 'output')
                 else: 
                         msg = QMessageBox()
                         msg.setText("Selecione a pasta onde estão as imagens")
